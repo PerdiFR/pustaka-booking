@@ -7,6 +7,6 @@ class Contoh1 extends CI_Controller
  echo"Nama saya Perdi Firdaus Ramadhan,
  Saya tinggal di daerah Depok,
  Olah raga yang saya sukai adalah
- Basket";
+ Voli";
  }
 }
