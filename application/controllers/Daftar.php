@@ -9,9 +9,9 @@ class Daftar extends CI_Controller
     {
 
         $this->form_validation->set_rules('NIM', 'NIM Daftar', 
-    'required|min_length[3]', [
-        'required' => 'NIM Harus diisi angka',
-        'min_lenght' => 'NIM terlalu pendek'
+    'required|numeric', [
+        'required' => 'NIM Harus diisi',
+        'numeric' => 'NIM harus diisi angka'
         ]);
 
         if ($this->form_validation->run() != true) {

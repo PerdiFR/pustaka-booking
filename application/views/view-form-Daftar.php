@@ -22,7 +22,7 @@
                     <th>NIM</th>
                     <th>:</th>
                     <td>
-                        <input type="number" name="NIM" id="NIM" placeholder="Required">
+                        <input type="text" name="NIM" id="NIM" placeholder="Required">
                         <div class="col-sm-6 col-danger"> <?= form_error('NIM'); ?> </div>
                     </td>
                 </tr>
