@@ -37,14 +37,14 @@ $where);
 					</div>
 
 					<div class="col-auto">
-						<a href="<?= base_url('buku'); ?>"><i class="fas fa￾book fa-3x text-primary"></i></a>
+						<a href="<?= base_url('buku'); ?>"><i class="fas fa-book fa-3x text-primary"></i></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="col-xl-3 col-md-6 mb-4">
-		<div class="card border-left-success shadow h-100 py-2 bg￾danger">
+		<div class="card border-left-success shadow h-100 py-2 bg-danger">
 			<div class="card-body">
 				<div class="row no-gutters align-items-center">
 					<div class="col mr-2">
