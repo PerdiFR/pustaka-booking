@@ -29,7 +29,7 @@ class="fas fa-users fa-3x text-warning"></i></a>
 						<div class="h1 mb-0 font-weight-bold text-white">
 							<?php
 							$where = ['stok != 0'];
-							$totalstok = $this->ModelBuku->total('stok', 
+							$totalstok = $this->ModelBuku->total('stok',
 $where);
 							echo $totalstok;
 							?>
@@ -52,7 +52,7 @@ $where);
 						<div class="h1 mb-0 font-weight-bold text-white">
 						<?php
 						$where = ['dipinjam != 0'];
-						$totaldipinjam = $this->ModelBuku->total('dipinjam', 
+						$totaldipinjam = $this->ModelBuku->total('dipinjam',
 $where);
 						echo $totaldipinjam;
 						?>
@@ -96,7 +96,7 @@ $where);
 		<div class="page-header">
 			<span class="fas fa-users text-primary mt-2 "> Data 
 User</span>
-			<a class="text-danger" href="<?php echo 
+			<a class="text-danger" href="<?php echo
 base_url('user/data_user'); ?>"><i class="fas fa-search mt-2 float-right"> Tampilkan</i></a>
 	</div>
 <table class="table mt-3">

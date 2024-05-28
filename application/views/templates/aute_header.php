@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Login</title>
+    <title>WP Univ. BSI |<?= $judul; ?></title>
 
     <!-- Custom fonts for this template-->
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -18,8 +18,8 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
-
+    <link href="<?= base_url('assets/'); ?>css/sb-admin-2.min.css"
+rel="stylesheet">
 </head>
 
 <body class="bg-gradient-primary">
