@@ -27,7 +27,7 @@ class sepatu extends CI_Controller
                 'harga' => $harga,
                 'size'  => $this->input->post('size')
             ];
-            
+
             $this->load->view('view-data-sepatu', $data);
         }
     }
