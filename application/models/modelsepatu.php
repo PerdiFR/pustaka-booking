@@ -21,7 +21,6 @@ class modelsepatu extends CI_Model{
         if ($this->input->post('merk') == "Bucherri") {
             $data = 400000;
             return $data;
-        
         }
     }
 }
