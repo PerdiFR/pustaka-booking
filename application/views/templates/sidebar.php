@@ -17,6 +17,12 @@
         Master Data
     </div>
     <!-- Nav Item - Dashboard -->
+	<li class="nav-item active">
+        <a class="nav-link pb-0" href="<?= base_url('pinjam'); ?>">
+            <i class="fa fa-fw fa-book"></i>
+            <span>Data peminjaman</span>
+        </a>
+    </li>
     <li class="nav-item active">
         <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
             <i class="fa fa-fw fa-book"></i>
@@ -33,6 +39,30 @@
         <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>">
             <i class="fa fa-fw fa-book"></i>
             <span>Kategori</span>
+        </a>
+    </li>
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+		Laporan
+    </div>
+    <!-- Nav Item - Dashboard -->
+	<li class="nav-item active">
+        <a class="nav-link pb-0" href="<?= base_url('pinjam'); ?>">
+            <i class="fa fa-fw fa-book"></i>
+            <span>Laporan Data Buku</span>
+        </a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
+            <i class="fa fa-fw fa-book"></i>
+            <span>Laporan Data Anggota</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
+            <i class="fa fa-fw fa-book"></i>
+            <span>Laporan Peminjaman</span>
         </a>
     </li>
     <!-- Divider -->
